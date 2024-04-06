@@ -1,0 +1,307 @@
+.text1 {
+    
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    size: 20px;
+    color:#797C86;
+    font-family: Manrope ;
+    margin-left: -100px;
+    font-family: monospace;
+}
+.text {
+    
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    size: 58px;
+    color:#FFFFFF;
+    margin-top: -100px;
+    margin-left: -202px;
+    font-family: monospace;
+ 
+}
+.back {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    grid-template-rows: 1fr ;
+
+    column-gap: 10px;
+
+    row-gap: 15px;
+    color: #FFFFFF;
+    background: #000000;
+    
+    
+}
+.buttons-container {
+  grid-column: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px;
+  }
+  
+  .remote-button-container {
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Button2 {
+    margin-left: 900px;
+    width: 34px;
+    height: 34px;
+    background-color: #212121;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+  }
+  
+  .Button {
+    grid-column: 0;
+    width: 34px;
+    height: 34px;
+    background-color: #212121;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    
+  }
+  
+  .Icon {
+    
+    width: 34px;
+    size: 34px;
+    color: #FFFFFF;
+  }
+  .Icon2 {
+    
+    width: 34px;
+    size: 34px;
+    color: #FFFFFF;
+  }
+  
+  .remote-button {
+    grid-column: 3;
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 5px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+  }
+  
+  .remote-button:hover {
+    grid-column: 3;
+    background-color: #424242;
+  }
+
+.Image{
+  grid-column: 1;
+  width: 499px;
+  height: 519px;
+  border-radius: 20px;
+  
+}
+.Image2{
+  grid-column: 2;
+  width: 499px;
+  height: 519px;
+  border-radius: 20px;
+  
+}
+.Image3{
+  grid-column: 3;
+  width: 499px;
+  height: 519px;
+  border-radius: 20px;
+  
+}
+.Card2{
+  grid-column: 2;
+  fill: 499px;
+  gap: 19px;
+  
+}
+.Card{
+  grid-column: 1;
+  grid-template-rows: 1fr 1fr;
+  fill: 499px;
+  gap: 19px;
+}
+
+.Subcontainer{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row: 2
+  
+}
+
+.desc3{
+  justify-content: center;
+    align-items: center;
+    width: 600px;
+    size: 58px;
+    color:#FFFFFF;
+    margin-top: -40px;
+    margin-left: -100px;
+    font-family: monospace;
+}
+.desc33{
+  justify-content: center;
+    align-items: center;
+    width: 600px;
+    size: 58px;
+    color:#797C86;
+    margin-top: -40px;
+    margin-left: -100px;
+    font-family: monospace;
+}
+.desc2{
+  justify-content: center;
+    align-items: center;
+    width: 600px;
+    size: 58px;
+    color:#FFFFFF;
+    margin-top: -40px;
+    margin-left: -100px;
+    font-family: monospace;
+}
+.desc22{
+  justify-content: center;
+    align-items: center;
+    width: 600px;
+    size: 58px;
+    color:#797C86;
+    margin-top: -40px;
+    margin-left: -100px;
+    font-family: monospace;
+}
+.desc{
+  justify-content: center;
+    align-items: center;
+    width: 600px;
+    size: 58px;
+    color:#FFFFFF;
+    margin-top: -40px;
+    margin-left: -100px;
+    font-family: monospace;
+}
+.desc1{
+  justify-content: center;
+    align-items: center;
+    width: 600px;
+    size: 58px;
+    color:#797C86;
+    margin-top: -40px;
+    margin-left: -100px;
+    font-family: monospace;
+}
+
+.bt{
+
+  display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 5px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+}
+.bt:hover {
+  background-color: #424242;
+}
+
+@media (max-width: 1024px) {
+  .Image, .Image2 {
+    width: 70%; 
+  }
+  .text, .text1 {
+    font-size: 24px; 
+  }
+  .text1{
+    margin-left: -270px;
+    
+  }
+  
+}
+
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .back {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ; 
+  }
+  .Image, .Image2 {
+    width: 100%; 
+  }
+  .text, .text1 {
+    font-size: 20px; 
+  }
+  .text1{
+    margin-left: -260px;
+    
+  }
+  
+  .buttons-container{
+    margin-top: -1000px;
+  }
+  .remote-button{
+    margin-top: -1530px;
+    margin-left: -500px;
+  }
+
+  .Button{
+    grid-column: 1;
+    margin-top: -700px;
+    margin-left: 100px;
+  }
+  .Button2{
+    grid-column: 1;
+    margin-top: -685px;
+    margin-left: 0px;
+  }
+}
+
+@media  (min-width: 1200px) and (max-width: 1920px) {
+  .back {
+    grid-template-columns: repeat(4, 1fr); 
+    
+  }
+  .text, .text1 {
+    font-size: 30px; 
+    
+  }
+  .text1{
+    margin-left: -280px;
+    
+  }
+  
+}
