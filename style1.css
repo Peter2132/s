@@ -239,10 +239,57 @@
   background-color: #424242;
 }
 
+.bt2{
+
+  display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 5px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+}
+.bt2:hover {
+  background-color: #424242;
+}
+
+.bt3{
+
+  display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 5px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+}
+.bt3:hover {
+  background-color: #424242;
+}
+
 @media (max-width: 1024px) {
   .Image, .Image2 {
     width: 70%; 
   }
+
   .text, .text1 {
     font-size: 24px; 
   }
@@ -262,6 +309,31 @@
   .Image, .Image2 {
     width: 100%; 
   }
+  .Image2{
+    display: none;
+  }
+  .Image3{
+    display: none;
+  }
+  .desc2{
+    display: none;
+  }
+  .desc22{
+    display: none;
+  }
+  .desc3{
+    display: none;
+  }
+  .desc33{
+    display: none;
+  }
+  .bt2{
+    display: none;
+  }
+  .bt3{
+    display: none;
+  }
+
   .text, .text1 {
     font-size: 20px; 
   }
@@ -284,6 +356,7 @@
     margin-left: 100px;
   }
   .Button2{
+    
     grid-column: 1;
     margin-top: -685px;
     margin-left: 0px;
