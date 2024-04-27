@@ -21,7 +21,7 @@
                 }
             } 
 
-            prompt("Result: " + result);
+            alert("Result: " + result);
         }
 
         calculator();
