@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="java2.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Компьютерный склад</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <form id="computerForm">
+          <div class="form-group">
+            <label for="brand">Производитель:</label>
+            <input type="text" class="form-control" id="brand" required>
+          </div>
+          <div class="form-group">
+            <label for="model">Модель:</label>
+            <input type="text" class="form-control" id="model" required>
+          </div>
+          <div class="form-group">
+            <label for="serial">Серийный номер:</label>
+            <input type="text" class="form-control" id="serial" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Добавить компьютер</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <ul id="computerList" class="list-group">
+         
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
+
+   
